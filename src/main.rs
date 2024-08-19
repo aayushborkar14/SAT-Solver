@@ -8,6 +8,7 @@ use wff::Formula;
 use wff::Literal;
 
 mod solver;
+mod tseitin;
 mod wff;
 
 pub fn parse_dimacs_cnf(content: &str) -> Formula {
